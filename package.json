@@ -9,6 +9,8 @@
   "author": "Daniel Abera",
   "license": "ISC",
   "dependencies": {
+    "bcrypt": "^6.0.0",
+    "dotenv": "^17.2.4",
     "express": "^5.2.1"
   }
 }
