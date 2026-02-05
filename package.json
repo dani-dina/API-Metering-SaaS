@@ -1,0 +1,14 @@
+{
+  "name": "api-metering-saas",
+  "version": "1.0.0",
+  "description": "A backend service that lets other startups create API keys, track usage, enforce rate limits, and bill customers based on API consumption.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Daniel Abera",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
