@@ -4,7 +4,8 @@
   "description": "A backend service that lets other startups create API keys, track usage, enforce rate limits, and bill customers based on API consumption.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    
+    "type" : "module"
   },
   "author": "Daniel Abera",
   "license": "ISC",
