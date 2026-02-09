@@ -4,14 +4,16 @@
   "description": "A backend service that lets other startups create API keys, track usage, enforce rate limits, and bill customers based on API consumption.",
   "main": "index.js",
   "scripts": {
-    
-    "type" : "module"
+    "type": "module"
   },
   "author": "Daniel Abera",
   "license": "ISC",
   "dependencies": {
     "bcrypt": "^6.0.0",
+    "cors": "^2.8.6",
     "dotenv": "^17.2.4",
-    "express": "^5.2.1"
+    "express": "^5.2.1",
+    "helmet": "^8.1.0",
+    "morgan": "^1.10.1"
   }
 }
