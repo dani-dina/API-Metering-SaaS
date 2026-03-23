@@ -15,7 +15,7 @@ const usageRecordSchema = new mongoose.Schema(
       required: true
     },
     period: {
-      type: String, // YYYY-MM
+      type: String, 
       required: true,
       index: true
     },
